@@ -1,0 +1,181 @@
+/* =========================================
+*** Common Styles start***
+===========================================*/
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* =========================================
+*** Common Styles end***
+===========================================*/
+
+
+/* =========================================
+*** Header Styles start***
+===========================================*/
+header {}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    color: #242f51;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.free-trail.ms-lg-4 {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* =========================================
+*** Header Styles end***
+===========================================*/
+
+/* =========================================
+*** Home section Styles end***
+===========================================*/
+#home {
+    background: url("../images/home-bg.png");
+    background-position: left bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.editor {
+    background-color: #E1EAED;
+    color: #242f51;
+    max-width: 250px;
+}
+
+.home-title {
+    font-weight: 600;
+    color: #242f51;
+    margin: 15px 0;
+}
+
+.home-desc {
+    color: #616368;
+}
+
+.home-banner {
+    width: 60%;
+}
+
+.home-banner img {
+    width: 100%;
+}
+
+/* =========================================
+*** Home section Styles end***
+===========================================*/
+
+/* =========================================
+*** Feature section Styles end***
+===========================================*/
+.feature-title {
+    color: #242f51;
+    font-weight: 600;
+}
+
+.feature-desc {
+    color: #616368;
+}
+
+.single-feature {
+    margin: 25px 0;
+}
+
+.performance h3 {
+    font-size: 1.2rem;
+    color: #f55767;
+    font-weight: 600;
+
+}
+
+.prototyping h3 {
+    font-size: 1.2rem;
+    color: #2563ff;
+    font-weight: 600;
+
+}
+
+.editing h3 {
+    font-size: 1.2rem;
+    color: #40975f;
+    font-weight: 600;
+
+}
+
+.single-feature p {
+    font-size: 1rem;
+    color: #616368;
+    font-weight: 400;
+
+}
+
+/* =========================================
+*** Feature section Styles end***
+===========================================*/
+
+/* =========================================
+*** Jackpots section Styles end***
+===========================================*/
+.jackport h3 {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.payouts h4 {
+    color: #f55767;
+
+}
+
+.network h4 {
+    color: #2563ff;
+}
+
+.rewards h4 {
+    color: #40975f;
+}
+
+.jackport p {
+    font-size: 1rem;
+    color: #616368;
+}
+
+/* =========================================
+*** Jackpots section Styles end***
+===========================================*/
+
+/* =========================================
+*** prefer section Styles end***
+===========================================*/
+.prefer-row h4{
+    font-size: 1.5rem;
+    color: #242f51;
+
+}
+.prefer-row p{
+    font-size: 1rem;
+    color: #616368;
+
+}
+/* =========================================
+*** prefer section Styles end***
+===========================================*/
