@@ -181,6 +181,10 @@ header {}
 /* =========================================
 *** prefer section Styles end***
 ===========================================*/
+
+/* =========================================
+*** price section Styles start***
+===========================================*/
 .accordion-button {
     border: none;
     margin: 10px 0;
@@ -192,12 +196,97 @@ header {}
     position: relative;
 }
 
-.hide{
+.hide {
     position: relative;
     display: none !important;
 }
 
-.show {
-    position: relative;
-   display: flex !important;
+
+
+/* =========================================
+*** price section Styles end***
+===========================================*/
+
+
+/* =========================================
+*** download section Styles start***
+===========================================*/
+.playStor,
+.appStore {
+    max-width: 185px !important;
 }
+
+.download-area img {
+    width: 100% !important;
+}
+
+
+/* =========================================
+*** download section Styles end***
+===========================================*/
+
+/* =========================================
+*** footer section Styles start***
+===========================================*/
+footer {
+    text-align: center;
+    background-color: #09132d;
+}
+
+.footer-logo {
+    margin-bottom: 50px;
+}
+
+.footer-menu ul {
+    list-style: none;
+    justify-content: center;
+}
+
+.footer-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+
+}
+
+.footer-menu ul li a {
+    font-size: smaller;
+    text-decoration: none;
+    color: white;
+
+}
+
+.social-icons ul {
+    list-style: none;
+    justify-content: center;
+}
+
+.social-icons ul li {
+    list-style: none;
+    margin: 0 10px;
+
+}
+
+.social-icons ul li a{
+   text-decoration: none;
+
+}
+.social-icons ul li a i{
+   text-decoration: none;
+   font-size: 30px;
+   color: #273043;
+   transition: color .3s;
+
+}
+.social-icons ul li a:hover i{
+   color: #fff;
+
+}
+.copyright {
+    margin-top: 50px;
+    color: #545454;
+    font-size: small;
+}
+
+/* =========================================
+*** footer section Styles end***
+===========================================*/
