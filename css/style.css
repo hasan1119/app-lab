@@ -166,16 +166,38 @@ header {}
 /* =========================================
 *** prefer section Styles end***
 ===========================================*/
-.prefer-row h4{
+.prefer-row h4 {
     font-size: 1.5rem;
     color: #242f51;
 
 }
-.prefer-row p{
+
+.prefer-row p {
     font-size: 1rem;
     color: #242f51;
 
 }
+
 /* =========================================
 *** prefer section Styles end***
 ===========================================*/
+.accordion-button {
+    border: none;
+    margin: 10px 0;
+    background-color: #f4f6f9;
+    padding: 10px 25px;
+}
+
+.price-card-holder {
+    position: relative;
+}
+
+.hide{
+    position: relative;
+    display: none !important;
+}
+
+.show {
+    position: relative;
+   display: flex !important;
+}
