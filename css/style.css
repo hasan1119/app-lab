@@ -159,6 +159,12 @@ header {}
     color: #616368;
 }
 
+@media screen and (min-width:992px) {
+    #borderRight {
+        border-right: 1px solid #ddd !important;
+    }
+}
+
 /* =========================================
 *** Jackpots section Styles end***
 ===========================================*/
@@ -205,6 +211,44 @@ header {}
 
 /* =========================================
 *** price section Styles end***
+===========================================*/
+
+
+/* =========================================
+*** review section Styles start***
+===========================================*/
+.left-arrow {
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    display: block;
+    position: relative;
+}
+
+.left-arrow::after {
+    content: "";
+    background: #ddd;
+    position: absolute;
+    top: 9px;
+    right: -11px;
+    width: 1px;
+    height: 60%;
+}
+
+.right-arrow {
+    margin-right: 20px;
+    background-color: #ddd;
+    padding: 10px 15px;
+    display: block;
+}
+.review-star li{
+    margin-right: 10px;
+}
+.review-star li i{
+  color: #ffcc00;
+}
+/* =========================================
+*** review section Styles end***
 ===========================================*/
 
 
@@ -266,21 +310,24 @@ footer {
 
 }
 
-.social-icons ul li a{
-   text-decoration: none;
+.social-icons ul li a {
+    text-decoration: none;
 
 }
-.social-icons ul li a i{
-   text-decoration: none;
-   font-size: 30px;
-   color: #273043;
-   transition: color .3s;
+
+.social-icons ul li a i {
+    text-decoration: none;
+    font-size: 30px;
+    color: #273043;
+    transition: color .3s;
 
 }
-.social-icons ul li a:hover i{
-   color: #fff;
+
+.social-icons ul li a:hover i {
+    color: #fff;
 
 }
+
 .copyright {
     margin-top: 50px;
     color: #545454;
